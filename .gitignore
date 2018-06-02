@@ -20,17 +20,8 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# Bower dependency directory (https://bower.io/)
-bower_components
-
-# node-waf configuration
-.lock-wscript
-
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+dist/
 
 # Dependency directories
 node_modules/
@@ -44,7 +35,8 @@ typings/
 
 # Optional eslint cache
 .eslintcache
-
+# Optional tslint cache
+.tscache
 # Optional REPL history
 .node_repl_history
 
